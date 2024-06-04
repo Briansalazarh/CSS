@@ -1,0 +1,274 @@
+/* La mayoria de estilos para aplicar a las etiquetas*/
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente estándar */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff0000; /* Rojo intenso */
+}
+
+/* Estilo para párrafos */
+p {
+    margin: 10px 0; /* Espaciado superior e inferior */
+    line-height: 1.6; /* Altura de línea */
+}
+
+/* Enlaces */
+a {
+    color: #ff0000; /* Rojo intenso */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Listas desordenadas */
+ul {
+    list-style-type: disc; /* Tipo de viñeta */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+/* Listas ordenadas */
+ol {
+    list-style-type: decimal; /* Números */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+/* Listas dentro de listas */
+ul ul, ol ol, ul ol, ol ul {
+    margin-left: 20px; /* Espaciado adicional a la izquierda */
+}
+
+/* Tablas */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Sin espacio entre celdas */
+    margin: 20px 0; /* Margen superior e inferior */
+    background-color: #1e1e1e; /* Fondo oscuro para tablas */
+}
+
+th, td {
+    border: 1px solid #333; /* Bordes gris oscuro */
+    padding: 10px; /* Relleno */
+    text-align: left; /* Alineación a la izquierda */
+}
+
+th {
+    background-color: #333; /* Fondo más oscuro para encabezados */
+}
+
+td {
+    background-color: #1e1e1e; /* Fondo oscuro para celdas */
+}
+
+/* Imágenes */
+img {
+    border: 2px solid #ff0000; /* Borde rojo intenso */
+    display: block; /* Bloque */
+    max-width: 100%; /* Ancho máximo */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Divs */
+div {
+    border: 1px solid #ff0000; /* Borde rojo intenso */
+    padding: 10px; /* Relleno */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Formularios */
+form {
+    margin: 20px; /* Margen */
+    padding: 20px; /* Relleno */
+    background-color: #1e1e1e; /* Fondo oscuro para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+label {
+    display: block; /* Bloque */
+    margin-bottom: 10px; /* Margen inferior */
+    color: #ff0000; /* Rojo intenso */
+}
+
+/* Inputs de texto */
+input[type="text"], input[type="number"], input[type="password"], input[type="date"], input[type="email"], textarea, select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    margin-bottom: 20px; /* Margen inferior */
+    border: 1px solid #333; /* Bordes gris oscuro */
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Botón de envío */
+input[type="submit"] {
+    background-color: #ff0000; /* Botón rojo intenso */
+    border: none; /* Sin borde */
+    color: #fff; /* Texto blanco */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Rojo más oscuro en hover */
+}
+
+/* Elementos específicos de formularios */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px; /* Margen a la derecha */
+}
+
+/* Selectores avanzados y pseudo-clases */
+button, input[type="button"] {
+    background-color: #ff0000; /* Fondo rojo intenso */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Relleno */
+    text-align: center; /* Alineación centrada */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Inline-block */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor de mano */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+button:hover, input[type="button"]:hover {
+    background-color: white; /* Fondo blanco en hover */
+    color: black; /* Texto negro en hover */
+    border: 2px solid #ff0000; /* Borde rojo intenso */
+}
+
+/* Listas de descripción */
+dl {
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+dt {
+    font-weight: bold; /* Texto en negrita */
+    color: #ff0000; /* Rojo intenso */
+}
+
+dd {
+    margin-left: 20px; /* Margen a la izquierda */
+}
+
+/* Bloques de cita */
+blockquote {
+    margin: 20px; /* Margen */
+    padding: 10px 20px; /* Relleno */
+    background-color: #333; /* Fondo gris oscuro */
+    border-left: 5px solid #ff0000; /* Borde izquierdo rojo intenso */
+    color: #fff; /* Texto blanco */
+}
+
+/* Código en línea y bloques de código */
+code {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    padding: 2px 4px; /* Relleno */
+    border-radius: 4px; /* Bordes redondeados */
+    color: #ff0000; /* Texto rojo intenso */
+}
+
+pre {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    padding: 10px; /* Relleno */
+    border-radius: 4px; /* Bordes redondeados */
+    color: #ff0000; /* Texto rojo intenso */
+    overflow-x: auto; /* Desplazamiento horizontal */
+}
+
+/* Tablas de contenido */
+table {
+    border-collapse: collapse; /* Sin espacio entre celdas */
+    width: 100%; /* Ancho completo */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+th, td {
+    border: 1px solid #333; /* Bordes gris oscuro */
+    padding: 10px; /* Relleno */
+}
+
+th {
+    background-color: #333; /* Fondo más oscuro para encabezados */
+    color: #fff; /* Texto blanco */
+}
+
+td {
+    background-color: #1e1e1e; /* Fondo oscuro para celdas */
+    color: #fff; /* Texto blanco */
+}
+
+/* Contenedores */
+.container {
+    width: 80%; /* Ancho */
+    margin: 0 auto; /* Centrando */
+    padding: 20px; /* Relleno */
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex; /* Flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+.flex-item {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    padding: 20px; /* Relleno */
+    margin: 10px; /* Margen */
+    color: #fff; /* Texto blanco */
+}
+
+/* Grid */
+.grid-container {
+    display: grid; /* Grid */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas responsivas */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.grid-item {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    padding: 20px; /* Relleno */
+    color: #fff; /* Texto blanco */
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Navegación */
+nav {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    padding: 10px; /* Relleno */
+}
+
+nav a {
+    color: #ff0000; /* Rojo intenso */
+    margin: 0 10px; /* Margen lateral */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Artículo y sección */
+article, section {
+    margin: 20px 0; /* Margen superior e inferior */
+    padding: 20px; /* Relleno */
+    background-color: #1e1e1e; /* Fondo oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    color: #fff; /* Texto blanco */
+}
